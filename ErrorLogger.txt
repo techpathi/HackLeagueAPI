@@ -1,0 +1,11 @@
+Sat Dec 19 2020 - TypeError: `connect` only accepts a callback
+    at MongoClient.connect (D:\CodaGlobal\HackLeagueAPI\node_modules\mongodb\lib\mongo_client.js:216:11)
+    at D:\CodaGlobal\HackLeagueAPI\src\routes\routing.js:18:14
+    at Layer.handle [as handle_request] (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\CodaGlobal\HackLeagueAPI\node_modules\express\lib\router\index.js:174:3)
